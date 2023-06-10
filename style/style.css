@@ -1,0 +1,47 @@
+/* utility 
+palette : 
+blu : #3f61e0
+grigio: #f6f6f6
+nero#23272a
+indaco : #8fa1e1
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding: 0 12em ;
+}
+nav{
+    background-color:#3F61E0 ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3em;
+}
+.nav-link ul li a{
+    color:white;
+    text-decoration: none;
+}
+.nav-link ul li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+.nav-link ul li {
+    list-style: none;
+    margin-right: 1em;
+}
+
+ul {
+    display: flex;
+
+}
+.nav-btn a {
+    color: black;
+    text-decoration: none;
+    text-transform:capitalize;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+}
