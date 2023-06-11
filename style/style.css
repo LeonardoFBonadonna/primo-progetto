@@ -9,6 +9,7 @@ indaco : #8fa1e1
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 .container{
     padding: 0 12em ;
@@ -45,3 +46,66 @@ ul {
     border-radius: 15px;
     padding: 5px 20px;
 }
+
+.sfondo{
+    background-image: url("../img/jumbo.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 7em 10em;
+}
+
+.sfondo-title{
+    font-size :55px;;
+    color: white;
+    font-weight: bolder;
+
+}
+
+.sfondo-box-title{
+    margin-bottom: 5em;
+}
+
+.sfondo-text{
+    color: white;
+    padding: 0 20em;
+    font-size: 20px;
+    margin-bottom: 4em;
+}
+
+.sfondo-box-btn button:first-child{
+    color: black;
+    text-decoration: none;
+    text-transform:capitalize;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 20px;
+    height: 35px;
+    border: none;
+    
+}
+
+.sfondo-box-btn button{
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize;
+    background-color: black;
+    border-radius: 15px;
+    padding: 5px 20px;
+    height: 35px;
+    border: none;
+}
+
+.sfondo-box-btn button:hover{
+    
+    box-shadow: 5px 10px #88888877;
+}
+.sfondo-box-btn button:first-child:hover{
+    box-shadow: 5px 10px #3f62e07d;
+    color: #3f61e0;
+
+}
+
+
