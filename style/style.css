@@ -126,3 +126,50 @@ ul {
     font-size:55px;
     margin-bottom: 50px;
 }
+
+.wave {
+    filter: grayscale(100%);
+    width: 100%;
+}
+.rotate{
+    rotate: 180deg;
+}
+
+.second-section{
+    background-color: #F6F6F6;
+    margin: -5px;
+    display: flex;
+
+}
+
+.second-section-title {
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+
+.third-section {
+    display: flex;
+    padding: 0 10em;
+}
+
+.third-section-title{
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.fourth-section{
+    text-align: center;
+    background-color: #F6F6F6;
+    margin: -5px;
+}
+
+.fourth-section-button {
+    color: white;
+    text-decoration: none;
+    text-transform:capitalize;
+    background-color: #8fa1e1;
+    border-radius: 15px;
+    padding: 5px 20px;
+    height: 35px;
+    border: none;
+}
