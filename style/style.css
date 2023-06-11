@@ -107,5 +107,22 @@ ul {
     color: #3f61e0;
 
 }
+/* MAIN*/
+/*prima sezione*/
+.first-section {
+    display:flex;
+    justify-content: center;
+    align-items: top;
+    padding-top: 10em;
+    
 
+}
+.box-first-text {
+    padding:0 4em;
+    
+}
 
+.box-first-title h2 {
+    font-size:55px;
+    margin-bottom: 50px;
+}
